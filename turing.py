@@ -21,7 +21,6 @@ class maquinaTuring:
 
 
 	def movimiento(self, ins):
-		#si el numero de movimientos excede 10 000 break
 		if ins == "R" :
 			self.posicion += 1
 		if ins == "L":
