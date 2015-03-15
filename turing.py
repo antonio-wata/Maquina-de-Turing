@@ -69,7 +69,7 @@ def lee():
 		maquina.estado_act = 0
 		maquina.posicion = 0
 		maquina.computa()
-		if contador > 1000:
+		if contador > 10000:
 			print("TLE")
 		print("en la prueba:")
 		if maquina.cinta.count(1) == p[1]:
