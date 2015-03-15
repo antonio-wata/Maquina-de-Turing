@@ -76,4 +76,6 @@ def lee():
 			print("AC")
 		else:
 			print("WA")
+		configCinta(int(1000), cinta, 0)
+
 lee()
